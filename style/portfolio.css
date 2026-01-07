@@ -18,12 +18,18 @@
 .btn {
   color: white;
   background-color: #fd6e0a;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 5px;
   padding: 18px 36px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  color: #fd6e0a;
+  background-color: white;
+  border: 2px solid #fd6e0a;
 }
 .heading-text {
   font-size: 35px;
@@ -44,7 +50,16 @@
   max-width: 267px;
   height: 377px;
   padding: 33px;
-  border: 2px solid salmon;
+  cursor: pointer;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: border 0.03s, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards:hover {
+  border-color: #db6612d2;
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(238, 108, 21, 0.568);
 }
 
 .cards img {
@@ -142,7 +157,7 @@ nav .menu {
   justify-content: flex-start;
   gap: 30px;
 }
-.btn-revarse {
+.btn-reverse {
   background-color: #fff8f3;
   color: #fd6e0a;
   padding: 18px 36px;
@@ -151,6 +166,12 @@ nav .menu {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-reverse:hover {
+  color: white;
+  background-color: #fd6e0a;
+  border: 2px solid transparent;
 }
 
 /* about section  */
