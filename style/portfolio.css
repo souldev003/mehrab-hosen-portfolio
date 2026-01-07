@@ -10,6 +10,10 @@
 }
 
 /* main style */
+
+.developer {
+  border: 1px solid rebeccapurple;
+}
 header {
   background-color: #fff8f3;
   padding-top: 50px;
