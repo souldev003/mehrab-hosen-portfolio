@@ -15,6 +15,15 @@
 .color-orange {
   color: #fd6e0a;
 }
+.btn {
+  color: white;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: bold;
+}
 /* Main Style  */
 header {
   background-color: #fff8f3;
@@ -28,4 +37,18 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 51px;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
 }
