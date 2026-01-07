@@ -3,7 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Shared Style  */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+.logo {
+}
+/* Main Style  */
+header {
+  background-color: #fff8f3;
+  padding-top: 50px;
+}
+nav {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid greenyellow; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
