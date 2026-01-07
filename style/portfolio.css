@@ -31,8 +31,8 @@ header {
   padding-top: 50px;
 }
 nav {
-  width: 71%;
-  max-width: 1140px;
+  width: 100%;
+  max-width: 1332px;
   /* border: 1px solid greenyellow; */
   margin: 0 auto;
   display: flex;
@@ -44,6 +44,7 @@ nav .menu {
   align-items: center;
   justify-content: center;
   gap: 51px;
+  margin-right: 192px;
 }
 .menu li {
   list-style: none;
@@ -54,11 +55,16 @@ nav .menu {
   color: #474747;
 }
 #banner {
-  border: 2px solid red;
-  margin: 47px 38px 0 230px;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1332px;
+  width: 100%;
+  height: 676px;
+  margin: 47px auto 0;
+
+  /* margin: 47px 38px 0 230px; */
 }
 
 #banner .banner-content {
