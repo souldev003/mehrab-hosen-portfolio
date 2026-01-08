@@ -3,18 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* Shared Style  */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
 .logo h2 {
   font-size: 45px;
   font-weight: 900;
 }
+
 .color-orange {
   color: #fd6e0a;
 }
+
 .btn {
   color: white;
   background-color: #fd6e0a;
@@ -26,26 +30,31 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .btn:hover {
   color: #fd6e0a;
   background-color: white;
   border: 2px solid #fd6e0a;
 }
+
 .heading-text {
   font-size: 35px;
   font-weight: bold;
   color: #181818;
 }
+
 .para-text {
   font-size: 18px;
   line-height: 30px;
   color: #757575;
 }
+
 .info-heading {
   font-size: 18px;
   color: #757575;
   margin-bottom: 5px;
 }
+
 .cards {
   max-width: 267px;
   height: 377px;
@@ -65,9 +74,11 @@
 .cards img {
   transition: border-radius 0.3s ease;
 }
+
 .cards:hover img {
   border-radius: 50%;
 }
+
 .cards img {
   margin-bottom: 28px;
 }
@@ -77,6 +88,7 @@
   color: #181818;
   margin-bottom: 20px;
 }
+
 .cards p {
   font-size: 16px;
   color: #757575;
@@ -91,6 +103,7 @@ header {
   background-color: #fff8f3;
   padding-top: 50px;
 }
+
 nav {
   width: 100%;
   max-width: 1332px;
@@ -100,6 +113,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 nav .menu {
   display: flex;
   align-items: center;
@@ -107,14 +121,17 @@ nav .menu {
   gap: 51px;
   margin-right: 192px;
 }
+
 .menu li {
   list-style: none;
 }
+
 .menu a {
   text-decoration: none;
   font-size: 20px;
   color: #474747;
 }
+
 #banner {
   /* border: 2px solid red; */
   display: flex;
@@ -141,28 +158,33 @@ nav .menu {
   color: #474747;
   margin-bottom: 5px;
 }
+
 #banner .banner-content h1 {
   font-size: 85px;
   font-weight: bold;
   color: #181818;
   margin-bottom: 20px;
 }
+
 #banner .banner-content p {
   font-size: 18px;
   color: #757575;
   line-height: 30px;
   margin-bottom: 30px;
 }
+
 #banner .banner-image img {
   max-width: 585px;
   vertical-align: middle;
 }
+
 .banner-btn {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 30px;
 }
+
 .btn-reverse {
   background-color: #fff8f3;
   color: #fd6e0a;
@@ -174,6 +196,7 @@ nav .menu {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .btn-reverse:hover {
   color: white;
   background-color: #fd6e0a;
@@ -184,6 +207,7 @@ nav .menu {
 #about {
   padding-top: 130px;
 }
+
 .about-container {
   background-color: #fff8f3;
   max-width: 1140px;
@@ -211,9 +235,11 @@ nav .menu {
   max-width: 1140px;
   margin: 130px auto 0;
 }
+
 .skill-container .skill-header {
   text-align: center;
 }
+
 .skill-container .para-text {
   max-width: 827px;
   margin: 30px auto 50px;
@@ -224,4 +250,34 @@ nav .menu {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+}
+
+/* Resume Section  */
+#resume {
+  margin-top: 130px;
+}
+
+.resume-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.resume-container .heading-text {
+  text-align: center;
+  margin-bottom: 113px;
+}
+
+.resume-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.resume-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
 }
