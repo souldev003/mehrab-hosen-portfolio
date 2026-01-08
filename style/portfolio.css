@@ -307,3 +307,15 @@ nav .menu {
   text-align: center;
   margin-top: 50px;
 }
+
+#footer-section {
+  margin-top: 113px;
+  max-width: 100%;
+  background-color: #fff8f3;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+}
