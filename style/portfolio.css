@@ -318,4 +318,48 @@ nav .menu {
   max-width: 1140px;
   margin: 0 auto;
   padding: 130px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contact-section .heading-text {
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  max-width: 562px;
+  margin-bottom: 30px;
+}
+
+.icons img {
+  margin-right: 25px;
+}
+
+.message-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.message-section .heading-text {
+  margin-bottom: 28px;
+}
+
+
+
+.message-section input,
+.message-section textarea {
+  max-width: 461px;
+  height: 64px;
+  background-color: white;
+  border: none;
+  padding: 18px 350px 18px 30px;
+  outline: none;
+}
+
+.message-section textarea {
+  height: 180px;
+  resize: none;
+  margin-bottom: 24px;
 }
