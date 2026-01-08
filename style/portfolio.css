@@ -253,31 +253,3 @@ nav .menu {
 }
 
 /* Resume Section  */
-#resume {
-  margin-top: 130px;
-}
-
-.resume-container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
-.resume-container .heading-text {
-  text-align: center;
-  margin-bottom: 113px;
-}
-
-.resume-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-
-
-.resume-heading {
-  font-size: 30px;
-  font-weight: bold;
-  color: #474747;
-  margin-bottom: 30px;
-}
