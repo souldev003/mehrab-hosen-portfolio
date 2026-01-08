@@ -253,3 +253,43 @@ nav .menu {
 }
 
 /* Resume Section  */
+#resume {
+  max-width: 1140px;
+  margin: 130px auto 0;
+}
+
+.resume-header {
+  text-align: center;
+}
+
+.resume-header .heading-text {
+  margin-bottom: 113px;
+}
+
+.resume-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.education-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.education-card h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.education-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
