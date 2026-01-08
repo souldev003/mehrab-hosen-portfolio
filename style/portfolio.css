@@ -337,6 +337,12 @@ nav .menu {
 
 .icons img {
   margin-right: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icons img:hover {
+  transform: scale(1.3);
 }
 
 .message-section {
